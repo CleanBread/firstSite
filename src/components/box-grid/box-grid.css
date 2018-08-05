@@ -1,0 +1,37 @@
+.box-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+    "item-1 item-2 item-3 item-4"
+    "item-5 item-5 item-6 item-7"
+}
+
+.item-1 {
+    grid-area: item-1;
+    background: #f5989d;
+}
+
+.item-2 {
+    grid-area: item-2;
+}
+
+.item-3 {
+    grid-area: item-3;
+}
+
+.item-4 {
+    grid-area: item-4;
+}
+
+.item-5 {
+    grid-area: item-5;
+}
+
+.item-6 {
+    grid-area: item-6;
+}
+
+.item-7 {
+    grid-area: item-7;
+}
