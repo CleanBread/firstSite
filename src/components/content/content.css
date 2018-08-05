@@ -1,0 +1,25 @@
+.content {
+    height: 1650px;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". text ."
+    ". box-grid ."
+    ". four-col .";
+}
+
+.text {
+    grid-area: text;
+    background: red;
+}
+
+.box-grid {
+    grid-area: box-grid;
+    background: yellow;
+}
+
+.our-col {
+    grid-area: four-col;
+    background: black;
+}

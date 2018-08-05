@@ -1,0 +1,42 @@
+/* .text {
+    width: 100%;
+    height: 470px;
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr 300px;
+    grid-template-rows: 150px 1fr 1fr 1fr;
+    grid-template-areas: 
+    " . h1 . . "
+    " . item_1 item_4 . "
+    " . item_2 item_5 . "
+    " . item_3 . . ";
+}
+
+
+.h1 {
+    grid-atea: h1;
+}
+
+.text_1 {
+    grid-area: item_1;
+    background: red;
+  }
+  
+  .text_2 {
+    grid-area: item_2;
+    background: black;
+  }
+  
+  .text_3 {
+    grid-area: item_3;
+    background: green;
+  }
+  
+  .text_4 {
+    grid-area: item_4;
+    background: pink;
+  }
+  
+  .text_5 {
+    grid-area: item_5;
+    background: gray;
+  } */
