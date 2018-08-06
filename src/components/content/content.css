@@ -2,7 +2,7 @@
     height: 1650px;
     display: grid;
     grid-template-columns: 300px 1fr 300px;
-    grid-template-rows: 500px 1fr 1fr;
+    grid-template-rows: 560px 1fr 1fr;
     grid-template-areas: 
     ". text ."
     ". box-grid box-grid"
@@ -17,7 +17,6 @@
     grid-area: box-grid;
 }
 
-.our-col {
+.four-col {
     grid-area: four-col;
-    background: black;
 }

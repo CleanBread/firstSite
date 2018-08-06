@@ -7,7 +7,7 @@ class Header extends React.Component {
       return (
       <div className="header">
         <div className="text_header">
-          <h1 className="caption_header">Picture perfect</h1>
+          <span className="caption_header">Picture perfect</span>
           <p className="sentence-header">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
       </div>

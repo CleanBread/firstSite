@@ -44,7 +44,7 @@
     background: url("C:/Users/gleb4/Desktop/first/first-site/src/img/Layer8.png") no-repeat 50% 50%;
 }
 
-.box-grid > .item-grid > h2 {
+.box-grid > .item-grid > span {
     font-size: 30px;
     display: inline-block;
     padding-left: 40px;
