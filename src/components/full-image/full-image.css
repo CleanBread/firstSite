@@ -1,0 +1,26 @@
+.full-image {
+    width: 100%;
+    height: 875px;
+    background: url('C:/Users/gleb4/Desktop/first/first-site/src/img/car.png') 50% 50%;
+    font-family: MyriadPro;
+    color: white;
+}
+
+.text-full-image {
+    position: relative;
+    left: 300px;
+    top: 450px;
+}
+
+.text-full-image > span {
+    display: inline-block;
+    width: 495px;
+    font-size: 60px;
+}
+
+.text-full-image > p {
+    margin-top: 20px;
+    display: inline-block;
+    width: 440px;
+    line-height: 24px;
+}

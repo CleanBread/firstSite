@@ -23,7 +23,7 @@
     margin-bottom: 0px;
 }
 
-p {
+.text_header > p {
     font-size: 13px;
     margin-top: 13px;
     line-height: 30px;
