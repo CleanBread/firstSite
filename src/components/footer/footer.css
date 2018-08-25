@@ -1,0 +1,50 @@
+.gird-footer {
+    height: 650px;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-areas: 
+    ". container .";
+    background: #192431
+}
+
+.gird-footer .footer-container {
+    grid-area: container;
+    align-self: center;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+    grid-template-rows: 3fr 4fr;
+    height: 100%;
+    color: white;
+}
+
+.get-in-touch {
+    align-self: center;
+}
+
+.footer-container p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-right: 20px;
+}
+
+.stay-in-touch {
+    align-self: center;
+    margin-left: 60px;
+}
+
+.stay-in-touch p:nth-of-type(2) {
+    color: #57697f
+}
+
+.stay-in-touch  .input {
+    width: 83%;
+    height: 60px;
+}
+
+.footer-btn {
+    width: 15%;
+    height: 60px;
+}

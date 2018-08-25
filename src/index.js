@@ -6,6 +6,7 @@ import Content from './components/content/content'
 import FullImage from './components/full-image/full-image'
 import Colour from './components/colour/colour'
 import Buying from './components/buying/buying'
+import Footer from './components/footer/footer'
 
 import './index.css'
 
@@ -18,6 +19,7 @@ class HomePage extends React.Component {
         <FullImage/>
         <Colour/>
         <Buying/>
+        <Footer/>
     </div>
     );
   }

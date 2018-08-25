@@ -45,3 +45,7 @@
 .item-text {
     margin-top: 50px;
 }
+
+.item-text p {
+    font-size: 13px;
+}
