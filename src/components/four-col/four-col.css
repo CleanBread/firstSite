@@ -13,6 +13,7 @@
     grid-area: item-1;
     font-size: 45px;
     align-self: end;
+    color: #222626
 }
 
 .four-col .item-2 {

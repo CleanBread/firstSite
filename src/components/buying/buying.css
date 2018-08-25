@@ -3,15 +3,15 @@
     display: grid;
     grid-template-columns: 300px 1fr 1fr 300px;
     grid-template-areas: 
-    ". conteiner-1 container-2 ."
+    ". container-1 container-2 ."
 }
 
 .buying .container-1 {
-    gird-area: container-1;
-    aling-self: center;
+    grid-area: container-1;
+    align-self: center;
 }
 
 .buying .container-2 {
-    gird-area: container-2;
-    aling-self: center;
+    grid-area: container-2;
+    align-self: center; 
 }

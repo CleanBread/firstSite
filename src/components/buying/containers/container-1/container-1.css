@@ -1,0 +1,65 @@
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.legacy {
+    background: #e1e1e1;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.legacy span {
+    vertical-align: bottom;
+    color: white;
+    font-size: 11px;
+}
+
+.text-in-co_1 span{
+    font-size: 30px;
+    color: #2e3b4e;
+}
+
+.text-in-co_1 p {
+    margin-right: 63px;
+}
+
+.container-1 > div {
+    margin-left: 54px;
+}
+
+.buying-btn {
+    background: #82ca9c;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.buying-btn:focus {
+    outline: none;
+}
+
+.buying-btn:hover {
+    box-shadow: 0px 0px 1px 1px #959595;
+}
+
+.logo-apple , .logo-windows{
+    background: url('C:/Users/gleb4/Desktop/first/first-site/src/img/logo-apple.png') 50% 50%;
+    width: 27px;
+    height: 32px;
+    display: inline-block;
+}
+
+.logo-windows {
+    background: url('C:/Users/gleb4/Desktop/first/first-site/src/img/logo-windows.png') 50% 50%;
+    margin-left: 20px;
+}
