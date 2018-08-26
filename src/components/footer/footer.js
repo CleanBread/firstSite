@@ -20,7 +20,6 @@ class Footer extends React.Component {
             <p>We don’t send spam. Actually, who are we kiding, we’ll spam 
 the shit out of you’r inbox</p>
           </div>
-          <div className="container-column"></div>
         </div>
       </div>
       );

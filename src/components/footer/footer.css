@@ -1,5 +1,5 @@
 .gird-footer {
-    height: 650px;
+    height: 350px;
     display: grid;
     grid-template-columns: 300px 1fr 300px;
     grid-template-areas: 
@@ -15,13 +15,12 @@
 .footer-container {
     display: grid;
     grid-template-columns: 6fr 5fr;
-    grid-template-rows: 3fr 4fr;
     height: 100%;
     color: white;
 }
 
 .get-in-touch {
-    align-self: center;
+    margin-top: 90px;
 }
 
 .footer-container p {
@@ -31,8 +30,8 @@
 }
 
 .stay-in-touch {
-    align-self: center;
     margin-left: 60px;
+    margin-top: 90px;
 }
 
 .stay-in-touch p:nth-of-type(2) {
@@ -40,11 +39,20 @@
 }
 
 .stay-in-touch  .input {
-    width: 83%;
+    width: 82%;
     height: 60px;
+    font-size: 30px;
 }
 
 .footer-btn {
-    width: 15%;
-    height: 60px;
+    height: 66px;
+    position: absolute;
+    width: 62px;
+    background: #82ca9c url('C:/Users/gleb4/Desktop/first/first-site/src/img/checkMark.png') no-repeat 50% 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-btn:focus {
+    outline: none;
 }
