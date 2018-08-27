@@ -4,13 +4,18 @@
     background: url('C:/Users/gleb4/Desktop/first/first-site/src/img/car.png') 50% 50%;
     font-family: MyriadPro;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: ". text-full-image .";
 }
 
 .text-full-image {
-    position: relative;
+    /* position: relative;
     left: 300px;
-    top: 450px;
+    top: 450px; */
+    grid-area: text-full-image;
     width: 528px;
+    align-self: center;
 }
 
 .text-full-image > span {
